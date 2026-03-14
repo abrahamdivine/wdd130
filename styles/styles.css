@@ -30,14 +30,18 @@ p {
     padding: 0px;
 }
 
-aside img {
-    width: 200px;
+aside {
+    max-width: 800px;
     margin: 20px;
     border: 1px white;
     padding: 15px;
-    height: auto;
     background-color: grey;
     color: white;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
 }
 
 footer {
